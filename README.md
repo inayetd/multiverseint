@@ -10,15 +10,17 @@ Analysis code for integrating multiverse results using several aggregation/calib
 
 ## Abstract
 ...
-# Methods implemented
 
-*Uniform:* equal weights across all universes.
+## Methods implemented
 
-*BMA:* Bayesian Model Averaging weights computed from BIC (requires a bic column).
+**Uniform:** equal weights across all universes.
 
-*MYH / MYNH:* regression-based decision sensitivity weighting (positive vs inverse weighting).
+**BMA:** Bayesian Model Averaging weights computed from BIC (requires a bic column).
 
-*MLI:* local-instability weighting using Gower distance over decision encodings.
+**MYH / MYNH:** regression-based decision sensitivity weighting (positive vs inverse weighting).
+
+**MLI:** local-instability weighting using Gower distance over decision encodings.
+
 
 ## Poster
 ..
